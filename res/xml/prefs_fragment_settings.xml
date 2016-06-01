@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.troden.thezoo" >
+
+    <PreferenceCategory android:title="Information" >
+        <Preference
+            android:defaultValue="0"
+            android:key="key_company_info"
+            android:summary="For more info click here."
+            android:title="Company Information" />
+
+        <Preference
+            android:defaultValue="0"
+            android:key="high_score"
+            android:summary="Highest score of Game"
+            android:title="Spider Smasher"
+            android:selectable="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
